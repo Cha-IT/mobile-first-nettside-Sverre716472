@@ -1,0 +1,26 @@
+
+
+{
+    "meny-mat": [
+        {
+            "navn": "alternativ1",
+            "pris": "pris_alternativ1",
+            "allergener": "allergener_alternativ1"
+        },
+        {
+            "navn": "alternativ2",
+            "pris": "pris_alternativ2",
+            "allergener": "allergener_alternativ2"
+        },
+        {
+            "navn": "alternativ3",
+            "pris": "pris_alternativ3",
+            "allergener": "allergener_alternativ3"
+        },
+        {
+            "navn": "alternativ4",
+            "pris": "pris_alternativ4",
+            "allergener": "allergener_alternativ4"
+        }
+    ]
+}
