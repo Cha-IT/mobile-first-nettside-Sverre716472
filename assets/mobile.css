@@ -1,0 +1,23 @@
+
+body{
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kafe-bilde{
+    width: 50%;
+    height: auto;
+}
+
+
+.kontaktinfo-bilde{
+    width: 70%;
+    height: auto;
+}

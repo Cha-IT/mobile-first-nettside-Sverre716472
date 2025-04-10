@@ -1,0 +1,38 @@
+
+body{
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kafe-bilde{
+    width: 50%;
+    height: auto;
+  
+}
+
+.container{
+    display: flex;
+    grid-template-columns: ifr auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.new-row{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.kontaktinfo-bilde{
+    width: 90%;
+    height: auto;
+}

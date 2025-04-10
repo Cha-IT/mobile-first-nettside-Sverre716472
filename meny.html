@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny</title>
+    <script>
+        const link_style = document.createElement('link');
+        link_style.rel = 'stylesheet';
+        if (/Mobile|Android|iPhone/i.test(navigator.userAgent)) {
+            link_style.href = 'assets/mobile.css';
+        } else {
+            link_style.href = 'assets/desktop.css';
+        }
+        document.head.appendChild(link_style);  
+
+
+    </script>
+</head>
+<body>
+    <h1>Meny</h1>
+    <p>Her er vår meny:</p>
+    <ul>
+        <div id="meny"></div>
+    </ul>
+    <script type="module" src="assets/js/meny.js"></script>
+    <p>Bestill<a href="bestilling.html"> her!</a></p> <!--Lenke som fører til bestillingsside (putte alt inni en json-fil hvis det går ann)-->
+    <p><a href="index.html">Tilbake til forside</a></p>
+
+</body>
+</html>

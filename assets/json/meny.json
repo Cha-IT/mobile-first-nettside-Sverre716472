@@ -1,0 +1,21 @@
+{
+    "varer": [
+        {
+            "navn": "Kaffe",
+            "pris": "30"
+        },
+        {
+            "navn": "Te",
+            "pris": "25"
+        },
+        {
+            "navn": "Kaker",
+            "pris": "50"
+        },
+        {
+            "navn":"Sandwich",
+            "pris": "70"
+        }
+    ]
+     
+}
