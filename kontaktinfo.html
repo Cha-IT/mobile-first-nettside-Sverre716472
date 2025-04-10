@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktinfo</title>
+    <script>
+        const link_style = document.createElement('link');
+        link_style.rel = 'stylesheet';
+        if (/Mobile|Android|iPhone/i.test(navigator.userAgent)) {
+            link_style.href = 'assets/mobile.css';
+        } else {
+            link_style.href = 'assets/desktop.css';
+        }
+        document.head.appendChild(link_style);  
+
+
+    </script>
+    <script type="module" src="assets/js/kontaktinfo.js"></script>
+</head>
+<body>
+    <h1>Kontaktinfo</h1>
+    <ul>
+        <div id="kontaktinfo"></div>
+
+    </ul>
+    <img src="assets/img/map_adresse.png" alt="Kontaktinfo bilde" class="kontaktinfo-bilde">
+    <p><a href="index.html">Tilbake til forside</a></p>
+    
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafe hjemmeside</title>
+    <script>
+        const link_style = document.createElement('link');
+        link_style.rel = 'stylesheet';
+        if (/Mobile|Android|iPhone/i.test(navigator.userAgent)) {
+            link_style.href = 'assets/mobile.css';
+        } else {
+            link_style.href = 'assets/desktop.css';
+        }
+        document.head.appendChild(link_style);  
+
+
+    </script>
+</head>
+<body>
+    <h1>Kafe</h1>
+    <script type="module" src="assets/js/app.js"></script>
+    <div class="container">
+        <div>
+            <div id="introduksjon"></div>
+            <p>
+                <a href="meny.html" class="knapp"> <!-- lenke til meny.html -->
+                    <button id="knapp_meny">Meny</button>
+                </a>
+                
+                <a href="bestilling.html" class="knapp"> <!-- lenke til bestillingsside.html -->
+                    <button id="knapp_meny">Bestill</button>
+                </a>
+                    
+                <a href="kontaktinfo.html" class="knapp"> <!-- lenke til kontaktinfo.html -->
+                    <button id="knapp_meny">Kontaktinfo</button>
+                </a>
+            </p>
+        </div>
+
+
+
+
+
+
+    
+    
+    <img src="assets/img/kafe-bilde.jpg" alt="Kafe bilde" class="kafe-bilde">
+    
+    
+    
+    
+        
+        
+        
+        
+    
+    </div>
+</body>
+</html>
